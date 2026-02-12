@@ -1,12 +1,43 @@
-# React + Vite
+Multi-Language Code Generation with Semantic Consistency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project develops a system that translates source code from one programming language to another while preserving its original logic and functionality. The system ensures semantic consistency, generating syntactically correct and readable code in the target language.
 
-Currently, two official plugins are available:
+Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Code translation across multiple languages (Python, Java, C++, etc.)
 
-## Expanding the ESLint configuration
+Preserves program behavior and logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+AST-based code analysis and intermediate representation
+
+Type-aware and structure-guided code generation
+
+Automatic compilation and validation
+
+Simple user interface for input and output
+
+Working Process
+
+Input source code
+
+Parse and generate AST/Intermediate Representation
+
+Plan translation and generate target code
+
+Compile and validate functionality
+
+Output refined, idiomatic code
+
+Technologies Used
+
+Python
+
+AST Parsers (Python ast, JavaParser, etc.)
+
+PyTorch / TensorFlow / Transformers (if used)
+
+NumPy, Scikit-learn
+
+GCC / G++ / Java Compiler
+
+VS Code, Git, GitHub
