@@ -1,43 +1,42 @@
-Multi-Language Code Generation with Semantic Consistency
+# Multi-Language Code Generation with Semantic Consistency
 
-This project develops a system that translates source code from one programming language to another while preserving its original logic and functionality. The system ensures semantic consistency, generating syntactically correct and readable code in the target language.
+## Overview
+This project implements a system that translates source code from one programming language to another while preserving the original logic and functionality. The system ensures semantic consistency and generates syntactically correct, readable code in the target language.
 
-Key Features
+## Features
+- Multi-language code translation (Python, Java, C++, etc.)
+- Preserves program behavior and logic
+- AST-based code analysis
+- Type-aware and structure-guided code generation
+- Automatic compilation and validation
+- User-friendly interface
 
-Code translation across multiple languages (Python, Java, C++, etc.)
+## Workflow
+1. Input source code  
+2. Parse code and generate AST / Intermediate Representation  
+3. Plan translation  
+4. Generate target language code  
+5. Compile and validate output  
+6. Display refined code  
 
-Preserves program behavior and logic
+## Technologies Used
+- Python
+- AST Parsers (Python ast, JavaParser, etc.)
+- PyTorch / TensorFlow / Transformers (if used)
+- NumPy, Scikit-learn
+- GCC / G++ / Java Compiler
+- VS Code, Git, GitHub
 
-AST-based code analysis and intermediate representation
+## Installation
 
-Type-aware and structure-guided code generation
+### Prerequisites
+- Python 3.8+
+- GCC / G++ / javac installed
+- Git
 
-Automatic compilation and validation
-
-Simple user interface for input and output
-
-Working Process
-
-Input source code
-
-Parse and generate AST/Intermediate Representation
-
-Plan translation and generate target code
-
-Compile and validate functionality
-
-Output refined, idiomatic code
-
-Technologies Used
-
-Python
-
-AST Parsers (Python ast, JavaParser, etc.)
-
-PyTorch / TensorFlow / Transformers (if used)
-
-NumPy, Scikit-learn
-
-GCC / G++ / Java Compiler
-
-VS Code, Git, GitHub
+### Steps
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
+python app.py
